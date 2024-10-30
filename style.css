@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'ibru';
+    src: url(./Assests/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+* {
+    font-family: 'ibru';
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 4%;
+
+}
+
+.maincontainer {
+    /* border: 1px solid red; */
+    display: flex;
+
+    margin-left: 8%;
+    width: 100%;
+    text-align: center;
+}
+
+#whtsapp,
+#insta,
+#fb {
+
+    border: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    text-align: justify;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+
+
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.rdm {
+
+    background-color: black;
+    border: none;
+    padding: 10px;
+    padding-right: 30%;
+    padding-left: 30%;
+    border-radius: 25px;
+    cursor: pointer;
+
+
+}
+
+.read {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#twi,
+#ins,
+#yot {
+    font-size: 70px;
+
+}
+
+.color {
+    color: rgb(8, 8, 8);
+}
